@@ -52,9 +52,9 @@ const userLoggedIn = true
 const debitCard = true
 const loggedInFromGoogle = false
 const loggedInFromEmail = true
-if (userLoggedIn && debitCard && 2==3) { // for buy more than two && 
+if (userLoggedIn && debitCard && 2==3) { // for buy more than two && and operator 
     console.log("Allow to buy course");
 }
-if (loggedInFromGoogle || loggedInFromEmail) {
+if (loggedInFromGoogle || loggedInFromEmail) { // or operator ||
     console.log("User logged in");
 }
