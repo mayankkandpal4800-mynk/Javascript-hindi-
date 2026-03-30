@@ -21,6 +21,16 @@ map.set('NW', "Newzealand")
 map.set('Fr', "france")
 console.log(map);
 
-for (const key of map) {
-    console.log/(key);
+for (const [key, value] of map) {
+    console.log(key, ':-', value);
 }
+
+/*
+const myObject = {
+    'game1': 'NFS',
+    'game2': 'Spiderman'
+}
+
+for (const [key, value] of myObject) {
+    console.log(key, ':-', value);
+}*/ // error
