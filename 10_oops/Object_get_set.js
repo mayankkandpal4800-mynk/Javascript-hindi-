@@ -13,3 +13,5 @@ const User = {
 
 const tea = Object.create(User)
 console.log(tea.email);
+
+// https://2ality.com/2019/07/private-class-fields.html
